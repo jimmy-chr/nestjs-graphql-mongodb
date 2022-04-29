@@ -5,6 +5,8 @@
 This is a project to test NestJS in combination with graphql and mongodb
 Based on tutorial https://www.youtube.com/watch?v=eHn64NxMwJY
 
+Currently not working, failing database connection
+
 ## Installation
 
 ```bash
