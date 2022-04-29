@@ -12,6 +12,8 @@ import { MongooseModule } from '@nestjs/mongoose';
     GraphQLModule.forRoot<ApolloDriverConfig>({
       driver: ApolloDriver,
       autoSchemaFile: 'src/schema.gql',
+      debug: true,
+      playground: true,
     }),
     MongooseModule.forRoot('mongodb://localhost/nest'),
   ],
